@@ -106,8 +106,11 @@ footer {
     margin-top: 30px;
 }
 
+
+
 .call-me {
     text-align: center;
+    line-height: 25px;
 }
 
 footer i {
