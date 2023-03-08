@@ -85,6 +85,10 @@ h1 {
   font-size: 12px;
 }
 
+.grid {
+  margin-bottom: 80px;
+}
+
 section {
   margin-top: 20px;
   display: flex;
@@ -136,4 +140,8 @@ footer {
   margin-top: 15px;
   color: var(--blue);
   margin-bottom: 15px;
+}
+
+.disable {
+  display: none;
 }
