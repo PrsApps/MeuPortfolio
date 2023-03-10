@@ -1,9 +1,10 @@
 :root {
-  --orange: #FC7300;
+  --orange: #fc7300;
   --blue: #3072e6;
-  --background: #00425A;
+  --background: #00425a;
   --green: #c4e131;
   --profile-photo-size: 120px;
+  --profile-photo-size-two: 200px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -66,13 +67,13 @@ h1 {
 }
 
 .linkgithub {
-    text-decoration: none;
-    transition: all 250ms;
+  text-decoration: none;
+  transition: all 250ms;
 }
 
 .linkgithub:hover {
-    filter: brightness(1.2);
-    transform: translatey(-2px);
+  filter: brightness(1.2);
+  transform: translatey(-2px);
 }
 
 .ri-github-fill {
@@ -144,4 +145,47 @@ footer {
 
 .disable {
   display: none;
+}
+
+@media (min-width: 780px) {
+  main {
+    width: 500px;
+  }
+
+  .link {
+    width: 400px;
+    max-width: 100%;
+    margin-top: 30px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .photo-container {
+    width: var(--profile-photo-size-two);
+    height: var(--profile-photo-size-two);
+  }
+
+  .profile-photo {
+    width: var(--profile-photo-size-two);
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .occupation {
+    font-size: 25px;
+  }
+
+  .github__container {
+    height: 150px;
+  }
+
+  .ri-github-fill {
+    font-size: 80px;
+  }
+
+  .github__text {
+    font-size: 23px;
+  }
 }
